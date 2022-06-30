@@ -1,4 +1,4 @@
-// 13.6.2: Moda copy of logicStep1.js
+// 13.6.3: Moda copy of logicStep2.js
 // Add console.log to check to see if our code is working
 console.log("working");
 
@@ -59,17 +59,17 @@ function styleInfo(feature) {
       fillOpacity: 1,
       fillColor: "#ffae42",
       color: "#000000",
-      radius: getRadius(),
+      radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
     };
   }
 
-  // This function determines the radius of the earthquake marker based on its magnitude.
-// Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
+//   // This function determines the radius of the earthquake marker based on its magnitude.
+// // Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
 function getRadius(magnitude) {
-    if (magnitude === 0) {
-      return 1;
+     if (magnitude === 0) {
+       return 1;
     }
-    return magnitude * 4;
+     return magnitude * 4;
   }
