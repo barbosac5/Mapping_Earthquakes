@@ -10,7 +10,7 @@ For Deliverable 1, I was tasked with adding the tectonic plate data using d3.jso
 
 ### Deliverable 2
 In Deliverable 2, I added the major earthquake data, added color, and set the raduis of the circle markers based on the magnitude of the earthquake. I also added a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer.
-![Major_Earthquakes(./Earthquake_Challenge/Major_Earthquakes.png)
+![Major_Earthquakes](./Earthquake_Challenge/Major_Earthquakes.png)
 
 ### Deliverable 3
 For the last Deliverable, I was requested to simply add a third style to the earthquake map. I used the Dark Map as shown below.
